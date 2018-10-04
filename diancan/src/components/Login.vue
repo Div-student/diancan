@@ -36,6 +36,7 @@ export default {
     border-radius: 5px;
     line-height: 40px;
     margin: 10px auto;
+    box-shadow: 0px 1px 2px #EEE;
   }
   .account>span, .password>span{
     margin-left: 10px;
@@ -43,11 +44,12 @@ export default {
   .account>input, .password>input{
     height: 34px;
     border: none;
-    width: 80%;
+    width: 79%;
     outline: none;
   }
   .autoLogin{
     border:none;
+    box-shadow: none;
   }
   .login{
     text-align: center;
