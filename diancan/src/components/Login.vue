@@ -52,10 +52,11 @@ export default {
       if (this.account === '') {
         this.onor = false
         this.data1 = '请输入正确的用户名'
-      }
-      if (this.password === '') {
+      } else if (this.password === '') {
         this.onor = false
         this.data1 = '请输入正确的密码'
+      } else {
+        this.$router.push('/cantaiv ')
       }
       setTimeout(() => {
         this.onor = true

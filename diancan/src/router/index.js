@@ -1,7 +1,8 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import Login from '@/components/Login'
-import Toats from '@/cmcomponents/toats'
+import Cantai from '@/components/cantai'
+
 Vue.use(Router)
 
 export default new Router({
@@ -12,9 +13,9 @@ export default new Router({
       component: Login
     },
     {
-      path: '/toats',
-      name: 'Toats',
-      component: Toats
+      path: '/cantai',
+      name: 'Cantai',
+      component: Cantai
     }
   ]
 })
